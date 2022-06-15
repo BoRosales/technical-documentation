@@ -35,6 +35,30 @@ section {
     margin: 0 0 0 1rem;
 }
 
+/***** Introduction Section styles *****/
+
+.comparison-section {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.java-list-section>h4 {
+    text-align: center;
+}
+
+.java-list-section {
+    float: left;
+    width: 50%;
+}
+
+.js-list-section {
+    float: right;
+    width: 50%;
+}
+
+.js-list-section>h4 {
+    text-align: center;
+}
 
 /***** Navbar styles *****/
 
