@@ -72,6 +72,10 @@ section {
     border-right: solid;
 }
 
+#navbar>a {
+    cursor: pointer;
+}
+
 #navbar>ul {
     padding: 0;
 }
