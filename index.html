@@ -12,7 +12,10 @@
 <body>
     <!-- Navbar for the whole page -->
     <nav id="navbar">
-        <h3 id="header">Content</h3>
+        <header>
+            <h3 id="header">Content</h3>
+        </header>
+
         <ul class="navbar-list">
             <li>
                 <a class="nav-link" href="#Introduction">Introduction</a>
@@ -129,24 +132,43 @@
                 <h2>Variables</h2>
             </header>
 
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <code></code>
-            <li>
+            <p>Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with 
+                a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers 
+                that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.</p>
 
-            </li>
+            <p>Naming variables is known as one of the most difficult tasks in computer programming. When you are naming variables, think hard about the names. 
+                Try your best to make sure that the name you assign your variable is accurately descriptive and understandable to another reader. Sometimes that other reader 
+                is yourself when you revisit a program that you wrote months or even years earlier.</p>
+
+            <p>When you assign a variable, you use the = symbol. The name of the variable goes on the left and the value you want to store in the variable goes on the right.</p>
+
+            <code>let evenNumber = 2;</code>
+
         </section>
         <section class="main-section" id="Variable_Scope">
             <header>
                 <h2>Variable Scope</h2>
             </header>
 
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <code></code>
-            <li>
+            <p>A variable's scope determines where in a program a variable is available for use. A variable's scope is defined by where the variable is initialized or 
+                created. In JavaScript variable scope is defined by a function definition or by a block. They have different behaviors when it comes to variable scope.</p>
 
-            </li>
+            <p>We've not covered functions, but think of a function of a reusable block of code. They can accept parameters, such as variables to be used within the function
+                block, but variables defined within a function's scope are limited to being used within the function.</p>
+
+            <code>let name = "Douglas"
+                function sayHello(name) {
+                    return "Hi there, " + name + "!";
+                }
+            </code>
+
+            <h4>Types of Scope in JavaScript</h4>
+            <ul>
+                <li>Block Scope</li>
+                <li>Function Scope</li>
+                <li>Global Scope</li>
+            </ul>
+
         </section>
     </main>
 </body>
